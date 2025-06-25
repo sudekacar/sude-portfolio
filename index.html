@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website | Sude Yaren Kacar</title>
+    <link rel="shortcut icon" href="img/image.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--HEADER START-->
+
+    <header class="header">
+      <a href="#home" class="logo"> Sude's <span>Software</span> </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Homepage</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="skills">Skills</a>
+        <a href="certifications">Certifications</a>
+        <a href="#testimonials">References</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--HEADER END-->
+    <!--HOME START-->
+
+    <section class="home" id="home">
+      <div class="home-wrapper">
+        <div class="home-content">
+          <h1>Hello, I'm Sude!</h1>
+          <h3 class="text-animation">I'm a <span></span></h3>
+          <p>
+            Hi! I'm Sude, a final-year Management Information Systems student
+            with a passion for building smart, scalable, and user-centric
+            software solutions. My primary language is Python, and I have
+            hands-on experience in full-stack development, data science, and
+            machine learning. I've built several real-world projects, including
+            a traffic accident reporting web app and a stroke risk analysis
+            dashboard using Power BI. I was also a finalist in Teknofest 2023 –
+            Hyperloop Competition, which deepened my teamwork and
+            problem-solving skills in high-tech environments. I'm currently
+            looking for full-time opportunities in full-stack development or
+            AI/data-driven projects. I'm always excited to collaborate on
+            meaningful solutions. Let’s connect and build something impactful!
+          </p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/sudeykacar/" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://stackoverflow.com/users/25939633/sude-y-kacar" target="_blank"
+              ><i class="bx bxl-stack-overflow"></i
+            ></a>
+            <a href="https://github.com/sudekacar" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/sudeyarenkacar02/" target="_blank"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+          </div>
+
+          <div class="btn-group">
+            <a href="img\sudeyarenkacarcv.pdf" download class="btn">CV</a>
+            <a href="mailto:sudeykacar@gmail.com" class="btn">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="home-img">
+          <img src="img\sudee.jpeg" alt="Sude Yaren Kacar" class="home-img">
+
+
+        </div>
+      </div>
+    </section>
+    <!--HOME END-->
+
+    <!--EDUCATION START-->
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2016-2019</div>
+          <div class="timeline-content">
+            <h3>High School</h3>
+            <p>Recep Gungor Anatolian High School</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2019 - 2020</div>
+          <div class="timeline-content">
+            <h3>High School</h3>
+            <p>CERN COLLEGE BEYLIKDUZU</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020 - 2025</div>
+          <div class="timeline-content">
+            <h3>University</h3>
+            <p>ISTANBUL BILGI UNIVERSITY</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">September 2022 - February 2023</div>
+          <div class="timeline-content">
+            <h3>IT Intern - Morpa Kültür Yayınları</h3>
+            <p>
+              Participated in the development of digital learning tools and
+              interactive educational content. Gained exposure to AI-enhanced
+              features and game-based learning systems used in e-education.
+              Assisted in software testing, user experience improvements, and
+              content integration processes.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">August 2024 - September 2024</div>
+          <div class="timeline-content">
+            <h3>IT Intern - TET AKADEMİ</h3>
+            <p>
+              Learned core software development skills through practical
+              exercises and mentoring. Contributed to real client-based projects
+              as part of a developer team, focusing on collaborative coding,
+              debugging, and task-based project development.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">April 2025 - June 2025</div>
+          <div class="timeline-content">
+            <h3>IT Intern - TNC Group</h3>
+            <p>
+              Gained hands-on experience in applied Excel, AutoCAD, and
+              Photoshop. Completed basic Python modules and participated in
+              project-based tasks related to office productivity and technical
+              drawing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--EDUCATION END-->
+    <!--PROJECTS START-->
+
+    <section id="projects" class="projects">
+      <h2 class="heading">PROJECTS</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Capstone Project – Traffic Reporting App</h4>
+            <p>
+              Built a full-stack web application to allow users to report
+              traffic accidents in real time, with geolocation, image upload,
+              and structured driver/vehicle data. Can be adapted for insurance
+              claim automation and digital damage reporting. <br />
+              Tech Stack: Flask, JavaScript, HTML/CSS, SQLite
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>TeknoFest 2023 – Hyperloop Project</h4>
+            <p>
+              Took part in the finalist software team responsible for
+              simulation, data logging, and control systems of a Hyperloop
+              prototype. <br />Tech Stack: Python, Arduino, Raspberry Pi,
+              JavaScript, Git, simulation tools
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>GitHub Projects:</h4>
+            <p>
+             <li>
+              Snake Game (Python Turtle) + Logic and game loop
+             </li>
+             <li>
+              Responsive Website + HTML/CSS responsive design
+             </li>
+             <li>
+              Pikachu Drawing + Creative Turtle project
+             </li>
+            </p>
+          </div>
+        </div>
+          <div class="service-box">
+            <div class="service-info">
+              <h4>911 Emergency Call Analysis (ML)</h4>
+              <p>
+                Developed a classification model to analyze and categorize 911
+                emergency call data. Explored location, call type, and response
+                patterns to enhance situational awareness. <br> Tech Stack: Python,
+                Pandas, Scikit-learn, Matplotlib, Jupyter Notebook
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--PROJECTS END-->
+    <!--SKILLS START-->
+    <section class="skills-grid-section" id="skills">
+  <h2 class="heading">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="img\python.png" alt="Python" />
+      <p>Python</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\java.webp" alt="Java"/>
+      <p>Java</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\flask.webp" alt="Flask" />
+      <p>Flask</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\js.png" alt="JavaScript" />
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\sql.jpg" alt="SQL" />
+      <p>SQL</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\php.jpeg" alt="PHP" />
+      <p>PHP</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\powerbi.jpg" alt="Power BI" />
+      <p>Power BI</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\htmlcss.jpg" alt="HTML/CSS" />
+      <p>HTML / CSS</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\git.png" alt="Git" />
+      <p>Git</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\mongodb.png" alt="MongoDB" />
+      <p>MongoDB</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\typescript.png" alt="TypeScript" />
+      <p>TypeScript</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\docker-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-docker-logo-editorial-illustrative-white-208329238.webp" />
+      <p>Docker</p>
+    </div>
+    <div class="skill-item">
+      <img src="img\node.jpg" alt="node.js" />
+      <p>Node.js</p>
+    </div>
+
+    <div class="skill-item">
+      <img src="img\c.png" alt="C" />
+      <p>C</p>
+      <div class="skill-item">
+      <img src="img\boot.png" alt="Bootstrap" />
+      <p>Bootstrap</p>
+    </div>
+    
+
+  </div>
+</section>
+
+
+    <!--SKILLS END-->
+    <!--CERTIFICATIONS START-->
+    <section id="certifications">
+  <h2 class="section-title">Certifications</h2>
+  <div class="certificates">
+    
+    <div class="certificate-box">
+      <img src="img\Talent.png" alt="Python Certificate">
+      <p>TalentCoders TechCamp – 2024</p>
+    </div>
+
+    <div class="certificate-box">
+      <img src="img\tncerf.png" alt="Power BI Certificate">
+      <p>TNC IT Internship Certificate</p>
+    </div>
+
+  </div>
+</section>
+
+    <!--CERTIFICATIONS END-->
+
+    <!--TESTIMONIALS START-->
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-box">
+        <h2>REFERENCES</h2>
+        <div class="wrapper">
+          <div class="testimonial-item">
+            <img src="img\mopaa.png" alt="" />
+            <h2>Yakup Aslantaş</h2>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              Creative Director at Morpa Kültür Yayınları. He was my mentor.
+            </p>
+          </div>
+          <div class="testimonial-item">
+            <img src="img\tncc.jpeg" alt="" />
+            <h2>Zekiye İrem Akıcı</h2>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              Brand Director at TNC Group. <br> info@tncgroup.info <br> +90 850 2428026
+            </p>
+            <a href="img\Sude_Yaren_Kacar-Referans (1).pdf" download class="btn">Reference</a>
+
+          </div>
+          <div class="testimonial-item">
+            <img src="img\bilgilogo.jpg" alt="" />
+            <h2>Tuğrul Cabir Hakyemez</h2>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              PhD, Assistant Professor at Istanbul Bilgi University.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--TESTIMONIALS END-->
+    <!--CONTACT START-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="/send_email" method="POST">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="E-mail" />
+          </div>
+          <div class="input-box">
+            <input type="tel" placeholder="+90 5XX XXX XXXX" required />
+            <input type="text" placeholder="Subject" required />
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Send" class="btn" />
+        </div>
+      </form>
+    </section>
+    <!--CONTACT END-->
+    <!--FOOTER START-->
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.instagram.com/sudeykacar/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://stackoverflow.com/users/25939633/sude-y-kacar" target="_blank"><i class="bx bxl-stack-overflow"></i></a>
+        <a href="https://github.com/sudekacar" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/sudeyarenkacar02/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#home">Homepage</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#certifications">Certifications</a>
+        </li>
+        <li>
+          <a href="#testimonials">References</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        &copy; <span>Sudeli Yazılım</span> | <span>2025</span> Sude Yaren Kacar.
+        All rights <span>reserved.</span>
+      </p>
+    </footer>
+    <!--FOOTER END-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
